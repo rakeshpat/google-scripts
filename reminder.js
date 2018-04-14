@@ -33,7 +33,7 @@ function reminder() {
     var days_left = days_left_values[i][0];
     if (days_left == 0) {
       var amount_owed = amount_owed_values[i][0];
-      html = "<body><h1>Reminder:</h1><p>Payment of <strong>&pound;" + amount_owed + "</strong> is due today.<p></body>";
+      html = "<body><h1>Reminder:</h1><p>Payment of <strong>&pound;" + amount_owed + "</strong> is due today.</p></body>";
     }
   }
   
